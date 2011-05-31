@@ -17,25 +17,28 @@ Jak wybralismy jezyk java to pracujemy na galeziach master i java,
 jak wybralismy C++ to na galeziach master i cpp.
 Wszystkie zmiany staramy sie zatwierdzac, im czesciej tym lepiej.
 
-+ Z galezi master usuwamy plik zrodlowy jezyka, ktory odrzucilismy.
-+ Usuwamy z repozytorium zdalnego (na serwerze) galaz z tym jezykiem, ktory odrzucilismy.
-+ Z wybranego jezyka tworzymy sobie galaz lokalna z pobranej galezi zdalnej.
-  Nazwa galezi lokalnej dowolna, ale nazwa galezi zdalnej ma pozostac bez zmian. 
+1) Z galezi master usuwamy plik zrodlowy jezyka, ktory odrzucilismy.
+2) Usuwamy z repozytorium zdalnego (na serwerze) galaz z tym jezykiem, ktory odrzucilismy.
+3) Z wybranego jezyka tworzymy sobie galaz lokalna z pobranej galezi zdalnej.
+   Nazwa galezi lokalnej dowolna, ale nazwa galezi zdalnej ma pozostac bez zmian.
 
 Przechodzimy do galezi z wybranym jezykiem programowania, tam:
-+ W plilu zrodlowym, u gory, w komentarzu, wpisujemy swoje dane.
+4) W plilu zrodlowym, u gory, w komentarzu, wpisujemy swoje dane.
+   Plik zrodlowy powinien sie kompilowac.
+5) Plik wykonywalny dodajemy do listy plikow ignorowanych.
+   Ma to byc informacja dla kazdego programisty pracujacego z tym repozytorium.
+6) Zatwierdzamy zmiany.
 
 Przechodzimy do galezi master, tam:
 + Do galezi master scalamy zmiany z wybranej przez nas galezi.
   Rozwiazujemy konflikt (wybieramy to co nam bardziej odpowiada) i zatwierdzamy scalenie.
-+ Plik zrodlowy powinien sie kompilowac.
-+ Plik wykonywalny dodajemy do listy plikow ignorowanych.
-  Ma to byc informacja dla kazdego programisty pracujacego z tym repozytorium.
++ Utworzone walsnie zatwierdzenie oznaczymy znacznikiem tag o nazwie v0.01.
 + W historii repozytroium wyszukujemy usunieta funkcje: void pytanie()
   nastepnie przywracamy ja, tak, zeby byla w naszym programie. Na zawarte pytanie podajemy odpowiedz.
   I pytania i odpowiedzi maja sie wyswietlac, calosc ma sie kompilowac.
-
-
++ Z aktualnego stanu galezi z wybranym jezykiem programowania (java albo cpp) tworzymy archiwum zip
+  o nazwie, odpowiednio: java_11.06.01.zip albo cpp_11.06.01.zip.
+  Utworzony plik archiwum dodajemy do repozytroium w galezi master.
 
 III) Zaktualizowac zawartosc repozytorium na serwerze dla obu galezi.
      Trzecia galaz powinna byc juz wczesniej usunieta.

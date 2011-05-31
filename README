@@ -25,22 +25,24 @@ Wszystkie zmiany staramy sie zatwierdzac, im czesciej tym lepiej.
 Przechodzimy do galezi z wybranym jezykiem programowania, tam:
 4) W plilu zrodlowym, u gory, w komentarzu, wpisujemy swoje dane.
    Plik zrodlowy powinien sie kompilowac.
-5) Plik wykonywalny dodajemy do listy plikow ignorowanych.
-   Ma to byc informacja dla kazdego programisty pracujacego z tym repozytorium.
+5) Plik wykonywalny usuwamy z listy plikow sledzonych i dodajemy do listy plikow ignorowanych.
+   Plik ma byc ignorowany u kazdego programisty pracujacego z tym repozytorium.
 6) Zatwierdzamy zmiany.
 
 Przechodzimy do galezi master, tam:
-+ Do galezi master scalamy zmiany z wybranej przez nas galezi.
-  Rozwiazujemy konflikt (wybieramy to co nam bardziej odpowiada) i zatwierdzamy scalenie.
-+ Utworzone walsnie zatwierdzenie oznaczymy znacznikiem tag o nazwie v0.01.
-+ W historii repozytroium wyszukujemy usunieta funkcje: void pytanie()
-  nastepnie przywracamy ja, tak, zeby byla w naszym programie. Na zawarte pytanie podajemy odpowiedz.
-  I pytania i odpowiedzi maja sie wyswietlac, calosc ma sie kompilowac.
-+ Z aktualnego stanu galezi z wybranym jezykiem programowania (java albo cpp) tworzymy archiwum zip
-  o nazwie, odpowiednio: java_11.06.01.zip albo cpp_11.06.01.zip.
-  Utworzony plik archiwum dodajemy do repozytroium w galezi master.
+7) Do galezi master scalamy zmiany z wybranej przez nas galezi.
+   Rozwiazujemy konflikt (wybieramy to co nam bardziej odpowiada) i zatwierdzamy scalenie.
+8) Utworzone walsnie zatwierdzenie oznaczymy znacznikiem tag o nazwie v0.01.
+9) W historii repozytroium wyszukujemy usunieta funkcje: void pytanie(),
+   przywracamy ja, tak, zeby byla w naszym programie. Na zawarte pytanie podajemy odpowiedz.
+   I pytania i odpowiedzi maja sie wyswietlac, calosc ma sie kompilowac.
+10) Z aktualnego stanu galezi z wybranym jezykiem programowania (java albo cpp) tworzymy
+    archiwum zip o nazwie, odpowiednio: java_11.06.01.zip albo cpp_11.06.01.zip.
+    Utworzony plik archiwum dodajemy do repozytroium w galezi master.
 
 III) Zaktualizowac zawartosc repozytorium na serwerze dla obu galezi.
      Trzecia galaz powinna byc juz wczesniej usunieta.
 
+To wszystko, dziekuje,
+Robert Perlinski
 

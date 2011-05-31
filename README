@@ -8,7 +8,16 @@ do zakonczenia pisania kolokwium. Pozniejsze zatwierdzenia nie beda uwzgledniane
     do ktorego nikt poza wami nie ma dostepu. Zawartosc tego zdalnego repozytorium bedzie oceniana.
 II) Pobrac utworzona wlasnie kopie na komputer (repozytorium lokalne). W nim wykonujemy cale kolokwoiu.
 
-1) ...
-2)
+Mamy do zmodyfikowania/poprawienia program wyswietlajacy krotki napis.
+Program mamy napisac w jezyku java (galaz java) albo C++ (galaz cpp). Wybieramy jeden z jezykow.
+
++ Z galezi master usuwamy plik zrodlowy jezyka, ktory odrzucilismy.
++ Usuwamy galaz z tym jezykiem, ktory odrzucilismy. Uwuwany zarowno galaz loklana jak i zdalna na serwerze.
+
+Przechodzimy do galezi z wybranym jezykiem programowania, tam:
++ W plilu zrodlowym, u gory w komentarzu wpisujemy swoje dane.
++ 
+
+
 
 

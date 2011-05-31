@@ -16,8 +16,19 @@ Program mamy napisac w jezyku java (galaz java) albo C++ (galaz cpp). Wybieramy 
 
 Przechodzimy do galezi z wybranym jezykiem programowania, tam:
 + W plilu zrodlowym, u gory w komentarzu wpisujemy swoje dane.
-+ 
+
+Przechodzimy do galezi master, tam:
++ Do galezi master scalamy zmiany z wybranej przez nas galezi.
+  Rozwiazujemy konflikt (wybuerany to co nam bardziej odpowiada) i zatwierdzamy scalenie.
++ Plik zrodlowy powinien sie kompilowac.
++ Plik wykonywalny dodajemy do listy plikow ignorowanych.
+  Ma to byc informacja dla kazdego programisty pracujacego z tym repozytorium.
++ W historii repozytroium wyszukujemy usunieta funkcje: void pytanie()
+  nastepnie przywracamy ja, tak, zeby byla w naszym programie. Na zawarte pytanie podajmy odpowiedz.
+  I pytania i odpowiedzi maja sie wyswietlac, calosc ma sie kompilowac.
 
 
++ Wszystkie zmiany zatwierdzic, im czesciej tym lepiej.
++ Zaktualizowac zawartosc repozytorium zdalnego dla pozostalych dwoch galezi.
 
 

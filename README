@@ -17,7 +17,8 @@ Jak wybralismy jezyk java to pracujemy na galeziach master i java,
 jak wybralismy C++ to na galeziach master i cpp.
 Wszystkie zmiany staramy sie zatwierdzac, im czesciej tym lepiej.
 
-1) Z galezi master usuwamy plik zrodlowy jezyka, ktory odrzucilismy.
+1) Z repozytorium z galezi master usuwamy plik zrodlowy jezyka, ktory odrzucilismy.
+   Zmiany zatwierdzamy.
 2) Usuwamy z repozytorium zdalnego (na serwerze) galaz z tym jezykiem, ktory odrzucilismy.
 3) Z wybranego jezyka tworzymy sobie galaz lokalna z pobranej galezi zdalnej.
    Nazwa galezi lokalnej dowolna, ale nazwa galezi zdalnej ma pozostac bez zmian.

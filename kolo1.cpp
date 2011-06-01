@@ -1,4 +1,4 @@
-// Grzegorz, Fica, ZSZiAD, n101306
+// Grzegorz, Fica, ZSZiAD, 101306
 
 #include <iostream>
 using namespace std;

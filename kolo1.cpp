@@ -1,4 +1,4 @@
-// Imie, Nazwisko, grupa(specjalnosc), nr. indeksu
+// Grzegorz, Fica, ZSZiAD, n101306
 
 #include <iostream>
 using namespace std;

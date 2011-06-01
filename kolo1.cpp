@@ -1,4 +1,5 @@
-// 
+// Grzegorz, Fica, ZSZiAD, 101306
+
 
 #include <iostream>
 using namespace std;
